@@ -1,5 +1,11 @@
 # ionic Google Map
 
+## Screenshot
+
+| iOS | Android |
+|:------------:|:------------:|
+|![Screenshot iOS](https://raw.githubusercontent.com/wiki/betchi/ionic-google-map/images/screenshot_ios.png) | ![Screenshot Android](https://raw.githubusercontent.com/wiki/betchi/ionic-google-map/images/screenshot_android.png) |
+
 ## Development
 
 You will need to set up an API key for use Google API,
@@ -8,7 +14,6 @@ And you put your API Key in the URL.
 ```html:www/index.html
 <script src="http://maps.google.com/maps/api/js?key=[Please input API KEY!]"></script>
 ```
-
 
 ### To run in the browser
 
