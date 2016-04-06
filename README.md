@@ -6,7 +6,27 @@
 |:------------:|:------------:|
 |![Screenshot iOS](https://raw.githubusercontent.com/wiki/betchi/ionic-google-map/images/screenshot_ios.png) | ![Screenshot Android](https://raw.githubusercontent.com/wiki/betchi/ionic-google-map/images/screenshot_android.png) |
 
-## Development
+## Operation Environment
+
+```
+$ ionic info
+
+Your system information:
+
+Cordova CLI: 6.1.1
+Gulp version:  CLI version 3.9.1
+Gulp local:   Local version 3.9.1
+Ionic Version: 1.2.4
+Ionic CLI Version: 1.7.14
+Ionic App Lib Version: 0.7.0
+ios-deploy version: 1.8.5 
+ios-sim version: 5.0.8 
+OS: Mac OS X El Capitan
+Node Version: v0.12.13
+Xcode version: Xcode 7.3 Build version 7D175 
+```
+
+## Run
 
 You will need to set up an API key for use Google API,
 And you put your API Key in the URL.
@@ -48,7 +68,7 @@ ionic build android
 ionic run android
 ```
 
-### Link
+## Link
 
 **Google Maps API**
 
