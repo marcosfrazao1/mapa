@@ -11,6 +11,8 @@
 You will need to set up an API key for use Google API,
 And you put your API Key in the URL.
 
+*www/index.html*
+
 ```html:www/index.html
 <script src="http://maps.google.com/maps/api/js?key=[Please input API KEY!]"></script>
 ```
@@ -48,7 +50,7 @@ ionic run android
 
 ### Link
 
-**Abount Google Maps API**
+**Google Maps API**
 
 https://developers.google.com/maps/documentation/javascript/
 
