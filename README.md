@@ -24,6 +24,12 @@ ios-sim version: 5.0.8
 OS: Mac OS X El Capitan
 Node Version: v0.12.13
 Xcode version: Xcode 7.3 Build version 7D175 
+
+$ cordova platform list
+Installed platforms:
+  android 5.1.1
+  ios 4.1.1
+
 ```
 
 ## Run
