@@ -1,85 +1,46 @@
-# ionic Google Map
+# ionic-starter-eventmaps
 
-## Screenshot
+![ionic-starter-eventmaps-tablet](https://cloud.githubusercontent.com/assets/2264672/9698084/bf4d7c4e-53a7-11e5-8fc2-c8b87db876c9.png)
 
-| iOS | Android |
-|:------------:|:------------:|
-|![Screenshot iOS](https://raw.githubusercontent.com/wiki/betchi/ionic-google-map/images/screenshot_ios.png) | ![Screenshot Android](https://raw.githubusercontent.com/wiki/betchi/ionic-google-map/images/screenshot_android.png) |
+This is an addon starter template based on my [ionic-starter-requirejs template](https://github.com/KillerCodeMonkey/ionic-starter-requirejs) for the [Ionic Framework](http://ionicframework.com/). It is a base event app with the usage of Google Maps (custom directive). It is a possible implementation of the ionic-start-eventmaps for tablets.
 
-## Operation Environment
+## How to use this template
 
-```
-$ ionic info
+To use this, either create a new ionic project using the ionic node.js utility, or copy and paste this into an existing Cordova project. It is not that default approach to use the Ionic Framework ;).
 
-Your system information:
+Or use the files from ionic market:
+[Go](http://market.ionic.io/starters/event-app-and-maps-tablet)
 
-Cordova CLI: 6.1.1
-Gulp version:  CLI version 3.9.1
-Gulp local:   Local version 3.9.1
-Ionic Version: 1.2.4
-Ionic CLI Version: 1.7.14
-Ionic App Lib Version: 0.7.0
-ios-deploy version: 1.8.5 
-ios-sim version: 5.0.8 
-OS: Mac OS X El Capitan
-Node Version: v0.12.13
-Xcode version: Xcode 7.3 Build version 7D175 
+It is a clean project without external dependencies!
 
-$ cordova platform list
-Installed platforms:
-  android 5.1.1
-  ios 4.1.1
+After that!!!:
 
-```
+- change the Google Maps apiKey in the index.html
 
-## Run
+Finding something in the democontent:
+Type in 'Berlin', 'Ber', 'Sports' or 'Düsseldorf'
 
-You will need to set up an API key for use Google API,
-And you put your API Key in the URL.
+## Content
 
-*www/index.html*
+- Handling possible backend-requests in services -> add your backend easy and fast!
+- mockdata
+- simulate backend connections with promises and timeouts -> you can check possible loading spinners and so on
+- simple and only a little bit scss styling
+- usage of ionRefresher, infiniteScroll, ionSpinner, Popups, Modals -> if you are new in ionic you can see all this in action
+- Custom little Google Maps directive to show map and markers (linked markers) -> no external library
+- open native maps app via detail page
+- open dialer for tel contact on detail page
+- open mail app for email contact on detail page
+- open browser for website on detail page
+- random images :)
+- map is always visible --> custom backhandling
 
-```html:www/index.html
-<script src="http://maps.google.com/maps/api/js?key=[Please input API KEY!]"></script>
-```
+## Impressions
 
-### To run in the browser
-
-```
-npm install
-bower install ngCordova
-ionic setup sass
-ionic serve
-```
-
-### To run in iOS device
-
-In addition to the above
-
-```
-ionic plugin add cordova-plugin-geolocation
-
-ionic platform add ios
-ionic build ios
-ionic run ios
-```
-
-### To run in Android device
-
-In addition to the above
-
-```
-ionic platform add android
-ionic build android
-ionic run android
-```
-
-## Link
-
-**Google Maps API**
-
-https://developers.google.com/maps/documentation/javascript/
-
-**icon**
-
-https://icons8.com
+<img src="https://cloud.githubusercontent.com/assets/2264672/9698097/4bc21248-53a8-11e5-8020-19d0aa672eda.png" height="400">
+<img src="https://cloud.githubusercontent.com/assets/2264672/9698096/4bbf74d4-53a8-11e5-8a66-e22af1ad4b9e.png" height="400">
+<img src="https://cloud.githubusercontent.com/assets/2264672/9698098/4bc2dc00-53a8-11e5-8cbe-c1572679920c.png" height="400">
+<img src="https://cloud.githubusercontent.com/assets/2264672/9698100/4bc6246e-53a8-11e5-8c2f-610c65e880e9.png" height="400">
+<img src="https://cloud.githubusercontent.com/assets/2264672/9698101/4bc7cb3e-53a8-11e5-8743-a3ca5c053695.png" height="400">
+<img src="https://cloud.githubusercontent.com/assets/2264672/9698099/4bc4a8b4-53a8-11e5-840e-e5ccfcda6672.png" height="400">
+<img src="https://cloud.githubusercontent.com/assets/2264672/9698102/4bd8ec02-53a8-11e5-844b-0b199222718f.png" height="400">
